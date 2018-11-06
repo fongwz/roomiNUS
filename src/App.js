@@ -1,28 +1,31 @@
 import React, { Component } from 'react';
-import logo from './logo.svg';
-import './App.css';
+import {Divider} from 'semantic-ui-react'
+import {PageHeader} from './Header/Header'
+import {ControlPanel} from './Control/ControlPanel'
+import {Body} from './Body/Body'
 
 class App extends Component {
-  render() {
-    return (
-      <div className="App">
-        <header className="App-header">
-          <img src={logo} className="App-logo" alt="logo" />
-          <p>
-            Edit <code>src/App.js</code> and save to reload.
-          </p>
-          <a
-            className="App-link"
-            href="https://reactjs.org"
-            target="_blank"
-            rel="noopener noreferrer"
-          >
-            Learn React
-          </a>
-        </header>
-      </div>
-    );
-  }
+	constructor(){
+		super()
+		this.CPcallBack = this.CPcallBack.bind(this)
+		this.state = {floor: true, list: false}
+	}
+
+	CPcallBack(floor, list){
+		this.setState({floor: floor, list: list})
+	}
+
+	render() {
+		return (
+			<div >
+				<PageHeader />
+				<Divider clearing></Divider>
+				<ControlPanel callBack={this.CPcallBack} display={this.state}/>
+				<Divider hidden clearing></Divider>
+				<Body display={this.state}/>
+			</div>
+		);
+	}
 }
 
 export default App;
