@@ -41,34 +41,39 @@ export class FloorView extends React.Component {
                 <Sidebar.Pushable>
                     <VerticalSidebar visible={this.state.visible}/>
                     <Sidebar.Pusher dimmed={false}>
-                        <Image className="floorview-image" centered src="./floorplan.png" size='massive' onClick={this.onImageClick}/>
-                        
+                        <Image 
+                        className="floorview-image" 
+                        centered 
+                        src={this.state.area=="COM1"?"./com_1.png":"./com_2.png"} 
+                        size='massive' 
+                        onClick={this.onImageClick}
+                        /> 
                     </Sidebar.Pusher>
                 </Sidebar.Pushable>
                  <Grid columns='equal'>
-                            <Grid.Column>
-                                <Segment textAlign='right' size='massive'>
-                                    <Dropdown
-                                        selection closeOnChange
-                                        style={{zIndex:10000000}} compact 
-                                        options={dropdownRooms} text={this.state.area}
-                                        onChange={this.onAreaChange} 
-                                    />
-                                </Segment>
-                            </Grid.Column>
-                            <Grid.Column width={3}>
-                                <Segment textAlign='center' size='massive'>
-                                    <Dropdown
-                                        selection closeOnChange
-                                        style={{zIndex:10000000}} compact 
-                                        options={dropdownLevels} text={this.state.level}
-                                        onChange={this.onLevelChange} 
-                                    />
-                                </Segment>
-                            </Grid.Column>
-                            <Grid.Column>
-                                {/*Empty column*/}
-                            </Grid.Column>
+                        <Grid.Column>
+                            <Segment textAlign='right' size='massive'>
+                                <Dropdown
+                                    selection closeOnChange
+                                    style={{zIndex:100}} compact 
+                                    options={dropdownRooms} text={this.state.area}
+                                    onChange={this.onAreaChange} 
+                                />
+                            </Segment>
+                        </Grid.Column>
+                        <Grid.Column width={3}>
+                            <Segment textAlign='center' size='massive'>
+                                <Dropdown
+                                    selection closeOnChange
+                                    style={{zIndex:100}} compact 
+                                    options={dropdownLevels} text={this.state.level}
+                                    onChange={this.onLevelChange} 
+                                />
+                            </Segment>
+                        </Grid.Column>
+                        <Grid.Column>
+                            {/*Empty column*/}
+                        </Grid.Column>
                     </Grid>   
             </div>
         );

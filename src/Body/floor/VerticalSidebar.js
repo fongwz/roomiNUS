@@ -1,5 +1,6 @@
 import React from 'react';
-import {Grid,Image,Segment,Dropdown,Sidebar,Menu,Icon,Button} from 'semantic-ui-react'
+import {Grid,Image,Segment,Dropdown,Sidebar,Menu,Icon,Button,Modal} from 'semantic-ui-react'
+import {Booking} from './../Booking'
 
 export class VerticalSidebar extends React.Component {
     constructor(props){
@@ -26,7 +27,15 @@ export class VerticalSidebar extends React.Component {
                 <Menu.Item as='a'>1300</Menu.Item>
                 <Menu.Item as='a'>1400</Menu.Item>
                 <Menu.Item>
-                    <Button inverted color="blue">Book Room</Button>
+                    <Modal 
+                    trigger={<Button inverted color="blue">Book Room</Button>} 
+                    closeIcon
+                    size="small"
+                    >
+                        <Modal.Content>
+                        <Booking />
+                        </Modal.Content>
+                    </Modal>
                 </Menu.Item>
             </Sidebar> 
         );

@@ -1,5 +1,6 @@
 import React from 'react';
-import {Grid,Segment,Search,Header,Button,Icon} from 'semantic-ui-react'
+import {Grid,Segment,Search,Header,Button,Icon,Modal} from 'semantic-ui-react'
+import {Login} from './Login'
 
 export class PageHeader extends React.Component {
   render() {
@@ -14,10 +15,17 @@ export class PageHeader extends React.Component {
                 </Grid.Column>
                 <Grid.Column>
                     <Segment clearing >
+                        <Modal trigger={
                         <Button animated floated='right' primary size='large'>
                             <Button.Content visible>Sign In</Button.Content>
                             <Button.Content hidden><Icon name='sign-in' /></Button.Content>
                         </Button>
+                        } closeIcon size='small'>
+                            <Header icon='sign-in' content='Login' />
+                            <Modal.Content>
+                                <Login />
+                            </Modal.Content>
+                        </Modal>
                     </Segment>
                 </Grid.Column>
             </Grid>
