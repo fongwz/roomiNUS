@@ -57,7 +57,7 @@ export class ControlPanel extends React.Component {
                     {/* This column contains nothing */}
                 </Grid.Column>
                 <Grid.Column width={7}>
-                    <Segment basic textAlign='center'>
+                    <Segment textAlign='center'>
                     	<Header as='h2' style={{marginTop:"0.5%"}}size="huge">
                     	<Header.Content>THU</Header.Content>
 	                     	<Menu compact style={{marginLeft:"1%",marginRight:"1%"}}>
@@ -77,7 +77,7 @@ export class ControlPanel extends React.Component {
                 	</Segment>
                 </Grid.Column>
                 <Grid.Column>
-                    <Segment basic clearing>
+                    <Segment clearing>
                     	<Button.Group floated="right">
                     		<Button inverted color="blue" active={this.state.floor} onClick={this.floorClick}>Floor View</Button>
                     		<Button.Or />

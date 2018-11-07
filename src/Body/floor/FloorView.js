@@ -47,7 +47,7 @@ export class FloorView extends React.Component {
                 </Sidebar.Pushable>
                  <Grid columns='equal'>
                             <Grid.Column>
-                                <Segment basic textAlign='right' size='massive'>
+                                <Segment textAlign='right' size='massive'>
                                     <Dropdown
                                         selection closeOnChange
                                         style={{zIndex:10000000}} compact 
@@ -57,7 +57,7 @@ export class FloorView extends React.Component {
                                 </Segment>
                             </Grid.Column>
                             <Grid.Column width={3}>
-                                <Segment basic textAlign='center' size='massive'>
+                                <Segment textAlign='center' size='massive'>
                                     <Dropdown
                                         selection closeOnChange
                                         style={{zIndex:10000000}} compact 
@@ -69,7 +69,7 @@ export class FloorView extends React.Component {
                             <Grid.Column>
                                 {/*Empty column*/}
                             </Grid.Column>
-                        </Grid>   
+                    </Grid>   
             </div>
         );
     }
