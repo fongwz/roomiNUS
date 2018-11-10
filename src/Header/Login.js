@@ -4,14 +4,14 @@ import {Form,Button} from 'semantic-ui-react'
 export class Login extends React.Component {
   render() {
     return (
-        <Form>
+        <Form size="large">
             <Form.Field>         
-                <input placeholder='NUSNET ID' />
+                <input style={{fontFamily:"cgothic"}} placeholder='NUSNET ID' />
             </Form.Field>
             <Form.Field>
-                <input placeholder='Password' />
+                <input style={{fontFamily:"cgothic"}} placeholder='Password' />
             </Form.Field>
-            <Button type='submit'>Submit</Button>
+            <Button style={{fontFamily:"cgothic"}} type='submit' inverted color="orange">Submit</Button>
         </Form>
     );
   }

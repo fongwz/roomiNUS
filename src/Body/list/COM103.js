@@ -6,36 +6,36 @@ export class COM103 extends React.Component {
         return (
             <Reveal animated='small fade' style={{marginRight:"1%"}}>
                 <Reveal.Content visible>
-                    <Card>
-                        <Card.Content>
-                            <Card.Header>COM-1</Card.Header>
+                    <Card style={{backgroundColor:"#171717"}}>
+                        <Card.Content textAlign="center">
+                            <Card.Header style={{fontFamily:"cgothic",color:"#acacac"}}>COM1 - Level 2</Card.Header>
                             <Card.Description>
                                 <Divider hidden clearing></Divider>
                                 <Divider hidden clearing></Divider>
                                 <Divider hidden clearing></Divider>
                                 <Divider hidden clearing></Divider>
                                 <Divider hidden clearing></Divider>
-                                <Header>03</Header>
+                                <Header style={{fontFamily:"cgothic",color:"#acacac"}}>03 rooms available</Header>
                             </Card.Description>
                         </Card.Content>
                     </Card>
                 </Reveal.Content>
                 <Reveal.Content hidden>
                     <Card>
-                        <Card.Content>
-                            <Card.Header>COM-1</Card.Header>
+                        <Card.Content  textAlign="center">
+                            <Card.Header style={{fontFamily:"cgothic"}}>COM1 - Level 2</Card.Header>
                             <Card.Description>
                                 <Header as='h4'>
                                     <Icon name='caret right' />
-                                    <Header.Content>COM1-0301</Header.Content>
+                                    <Header.Content>COM1-0201</Header.Content>
                                 </Header>
                                 <Header as='h4'>
                                     <Icon name='caret right' />
-                                    <Header.Content>COM1-0302</Header.Content>
+                                    <Header.Content>COM1-0202</Header.Content>
                                 </Header>
                                 <Header as='h4'>
                                     <Icon name='caret right' />
-                                    <Header.Content>COM1-0303</Header.Content>
+                                    <Header.Content>COM1-0203</Header.Content>
                                 </Header>                            
                             </Card.Description>
                         </Card.Content>

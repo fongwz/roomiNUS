@@ -6,9 +6,42 @@ body {
     sans-serif;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
+  background-color: #171717 !important;
 }
 
 code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, "Courier New",
     monospace;
+}
+
+@font-face {
+    font-family: elron;
+    src: url(./fonts/Elronmonospace.ttf);
+}
+
+@font-face {
+  font-family: cgothic;
+  src: url(./fonts/CenturyGothic.ttf);
+}
+
+.react-timerange-picker__wrapper{
+    border-radius: 5px !important;
+    font-family: cgothic;
+    font-size: 2em;
+    color: #C8C8B7;
+    border-color: transparent;
+    border-width: 0px !important;
+}
+
+.react-timerange-picker__inputGroup{
+  background-color: #30302D;
+  color: #f15c22;
+}
+
+.react-timerange-picker__inputGroup__input{
+  color: #f15c22;
+}
+
+.ui.menu {
+  border: 0px !important;
 }

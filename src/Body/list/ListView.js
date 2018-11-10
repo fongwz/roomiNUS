@@ -8,7 +8,7 @@ import {COM201} from './COM201'
 export class ListView extends React.Component {
     render() {
         return (
-            <Grid doubling columns={1}>
+            <Grid doubling columns={1} >
                 <Grid.Row>
                     <Grid.Column>
                         <Card.Group centered itemsPerRow={2}>

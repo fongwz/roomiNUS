@@ -6,24 +6,24 @@ export class COM201 extends React.Component {
         return (
             <Reveal animated='small fade' style={{marginLeft:"1%"}}>
                 <Reveal.Content visible>
-                    <Card>
-                        <Card.Content>
-                            <Card.Header>COM-2</Card.Header>
+                    <Card style={{backgroundColor:"#171717"}}>
+                        <Card.Content textAlign="center">
+                            <Card.Header style={{fontFamily:"cgothic",color:"#acacac"}}>COM2 - Level 1</Card.Header>
                             <Card.Description>
                                 <Divider hidden clearing></Divider>
                                 <Divider hidden clearing></Divider>
                                 <Divider hidden clearing></Divider>
                                 <Divider hidden clearing></Divider>
                                 <Divider hidden clearing></Divider>
-                                <Header>01</Header>
+                                <Header style={{fontFamily:"cgothic",color:"#acacac"}}>03 rooms available</Header>
                             </Card.Description>
                         </Card.Content>
                     </Card>
                 </Reveal.Content>
                 <Reveal.Content hidden>
                     <Card>
-                        <Card.Content>
-                            <Card.Header>COM-1</Card.Header>
+                        <Card.Content textAlign="center">
+                            <Card.Header style={{fontFamily:"cgothic"}}>COM2 - Level 1</Card.Header>
                             <Card.Description>
                                 <Header as='h4'>
                                     <Icon name='caret right' />

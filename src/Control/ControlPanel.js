@@ -24,7 +24,7 @@ export class ControlPanel extends React.Component {
 		this.state = {
 			month: months[today.getMonth()], date: today.getDate(), day: days[today.getDay()-1],
 			floor: this.props.display.floor, list: this.props.display.list,
-			time: ['10:00', '11:00']
+			time: ['9:00', '11:00']
 		}
 	}
 
@@ -57,16 +57,24 @@ export class ControlPanel extends React.Component {
                     {/* This column contains nothing */}
                 </Grid.Column>
                 <Grid.Column width={7}>
-                    <Segment textAlign='center'>
+                    <Segment basic textAlign='center'>
                     	<Header as='h2' style={{marginTop:"0.5%"}}size="huge">
-                    	<Header.Content>THU</Header.Content>
+                    	<Header.Content 
+                    		style={{fontSize:"65%",marginTop:"1%",fontFamily:"cgothic",color:"#acacac"}}>
+                    		THU
+                    	</Header.Content>
 	                     	<Menu compact style={{marginLeft:"1%",marginRight:"1%"}}>
-	                    		<Dropdown 
-		                    		style={{zIndex:10000000}} simple item inline 
+	                    		<Dropdown
+	                    			className="cp-dropdown" 
+		                    		style={{zIndex:100,fontFamily:"cgothic",color:"#f15c22",backgroundColor:"#30302D"}} 
+		                    		simple item inline
 		                    		options={dropdownDates} text={this.state.date.toString()} 
 	                    		/>
 	                		</Menu>
-	                		<Header.Content>{this.state.month}</Header.Content>              		
+	                		<Header.Content 
+	                			style={{fontFamily:"cgothic",marginTop:"0.5%",color:"#f15c22"}}>
+	                			{this.state.month}
+	                		</Header.Content>              		
                     	</Header>
                     	<TimeRangePicker 
                     		onChange={this.onChange} 
@@ -77,11 +85,11 @@ export class ControlPanel extends React.Component {
                 	</Segment>
                 </Grid.Column>
                 <Grid.Column>
-                    <Segment clearing>
+                    <Segment basic clearing>
                     	<Button.Group floated="right">
-                    		<Button inverted color="blue" active={this.state.floor} onClick={this.floorClick}>Floor View</Button>
+                    		<Button inverted color="grey" active={this.state.floor} onClick={this.floorClick}>Floor View</Button>
                     		<Button.Or />
-                    		<Button inverted color="orange" active={this.state.list} onClick={this.listClick}>List View</Button>
+                    		<Button inverted color="grey" active={this.state.list} onClick={this.listClick}>List View</Button>
                     	</Button.Group>
                     </Segment>
                 </Grid.Column>

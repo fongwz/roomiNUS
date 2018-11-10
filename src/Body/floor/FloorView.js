@@ -52,20 +52,22 @@ export class FloorView extends React.Component {
                 </Sidebar.Pushable>
                  <Grid columns='equal'>
                         <Grid.Column>
-                            <Segment textAlign='right' size='massive'>
+                            <Segment basic textAlign='right' size='massive'>
                                 <Dropdown
                                     selection closeOnChange
-                                    style={{zIndex:100}} compact 
+                                    style={{zIndex:100,fontFamily:"cgothic",color:"#f15c22",backgroundColor:"#30302D"}} 
+                                    compact 
                                     options={dropdownRooms} text={this.state.area}
                                     onChange={this.onAreaChange} 
                                 />
                             </Segment>
                         </Grid.Column>
                         <Grid.Column width={3}>
-                            <Segment textAlign='center' size='massive'>
+                            <Segment basic textAlign='center' size='massive'>
                                 <Dropdown
                                     selection closeOnChange
-                                    style={{zIndex:100}} compact 
+                                    style={{zIndex:100,zIndex:100,fontFamily:"cgothic",color:"#f15c22",backgroundColor:"#30302D"}} 
+                                    compact 
                                     options={dropdownLevels} text={this.state.level}
                                     onChange={this.onLevelChange} 
                                 />
