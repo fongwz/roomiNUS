@@ -1,6 +1,5 @@
 import React from 'react';
 import {Form,Button,Dropdown,Header,Divider} from 'semantic-ui-react'
-import InputRange from 'react-input-range';
 import Slider from 'rc-slider';
 import Tooltip from 'rc-tooltip';
 import 'rc-slider/assets/index.css';
