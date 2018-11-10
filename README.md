@@ -7,8 +7,8 @@ The page will reload if you make edits.<br>
 You will also see any lint errors in the console.
 
 ### `Additional modules to install`
-[Semantic-UI, and its CSS](https://react.semantic-ui.com/usage)
-[RC-Slider](https://react-component.github.io/slider/)
+[Semantic-UI, and its CSS](https://react.semantic-ui.com/usage)<br>
+[RC-Slider](https://react-component.github.io/slider/)<br>
 [react-timerange-picker](https://github.com/wojtekmaj/react-timerange-picker)
 
 You might need to install [yarn](https://yarnpkg.com/lang/en/docs/install/#windows-stable) as well to install the additional modules
