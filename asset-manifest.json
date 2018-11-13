@@ -1,7 +1,7 @@
 {
   "main.css": "/roomiNUS/static/css/main.804649e7.chunk.css",
-  "main.js": "/roomiNUS/static/js/main.525c7470.chunk.js",
-  "main.js.map": "/roomiNUS/static/js/main.525c7470.chunk.js.map",
+  "main.js": "/roomiNUS/static/js/main.97744426.chunk.js",
+  "main.js.map": "/roomiNUS/static/js/main.97744426.chunk.js.map",
   "static/css/1.8d16a56a.chunk.css": "/roomiNUS/static/css/1.8d16a56a.chunk.css",
   "static/js/1.db63cffd.chunk.js": "/roomiNUS/static/js/1.db63cffd.chunk.js",
   "static/js/1.db63cffd.chunk.js.map": "/roomiNUS/static/js/1.db63cffd.chunk.js.map",
@@ -12,6 +12,6 @@
   "static/css/main.804649e7.chunk.css.map": "/roomiNUS/static/css/main.804649e7.chunk.css.map",
   "static/css/1.8d16a56a.chunk.css.map": "/roomiNUS/static/css/1.8d16a56a.chunk.css.map",
   "index.html": "/roomiNUS/index.html",
-  "precache-manifest.03c5b9fe5f14123a5e5500df11a6ee85.js": "/roomiNUS/precache-manifest.03c5b9fe5f14123a5e5500df11a6ee85.js",
+  "precache-manifest.989b9be4309f1b3422997c4fcc6844ec.js": "/roomiNUS/precache-manifest.989b9be4309f1b3422997c4fcc6844ec.js",
   "service-worker.js": "/roomiNUS/service-worker.js"
 }
