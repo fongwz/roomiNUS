@@ -8,10 +8,10 @@ export class PageHeader extends React.Component {
     return (
         <div>
             <Grid columns='equal' style={{backgroundColor:"#30302D"}}>
-                <Grid.Column>
+                <Grid.Column style={{paddingBottom:'0', display:'flex', flexDirection: 'column', justifyContent: 'center'>
                     <Segment basic><Search /></Segment>
                 </Grid.Column>
-                <Grid.Column width={7}>
+                <Grid.Column width={7} style={{paddingBottom:'0'}}>
                     <Segment basic textAlign='center'>
                     	<Header 
                     	style={{marginTop:"1%",fontFamily:"elron",color:"#f18322"}}
@@ -21,7 +21,7 @@ export class PageHeader extends React.Component {
                     	</Header>
                     </Segment>
                 </Grid.Column>
-                <Grid.Column>
+                <Grid.Column style={{paddingBottom:'0'}}>
                     <Segment basic clearing >
                         <Modal size="tiny" trigger={
                         <Button inverted animated floated='right' size='large' color="orange">
