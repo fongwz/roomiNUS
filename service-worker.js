@@ -14,7 +14,7 @@
 importScripts("https://storage.googleapis.com/workbox-cdn/releases/3.6.3/workbox-sw.js");
 
 importScripts(
-  "/roomiNUS/precache-manifest.cd84e24576aa45c60e1518967338be1c.js"
+  "/roomiNUS/precache-manifest.603b23e4f34fd6aa62dff0c37d4c28c7.js"
 );
 
 workbox.clientsClaim();

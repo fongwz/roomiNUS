@@ -4,7 +4,7 @@ self.__precacheManifest = [
     "url": "/roomiNUS/static/media/icons.faff9214.woff"
   },
   {
-    "revision": "52c10ea5d0deae6cffe5",
+    "revision": "a5b149a85653c8f5dc73",
     "url": "/roomiNUS/static/css/main.074ee3bc.chunk.css"
   },
   {
@@ -36,20 +36,20 @@ self.__precacheManifest = [
     "url": "/roomiNUS/static/media/outline-icons.ef60a4f6.woff"
   },
   {
-    "revision": "ad97afd3337e8cda302d10ff5a4026b8",
-    "url": "/roomiNUS/static/media/outline-icons.ad97afd3.ttf"
-  },
-  {
     "revision": "701ae6abd4719e9c2ada3535a497b341",
     "url": "/roomiNUS/static/media/outline-icons.701ae6ab.eot"
+  },
+  {
+    "revision": "ad97afd3337e8cda302d10ff5a4026b8",
+    "url": "/roomiNUS/static/media/outline-icons.ad97afd3.ttf"
   },
   {
     "revision": "0ab54153eeeca0ce03978cc463b257f7",
     "url": "/roomiNUS/static/media/icons.0ab54153.woff2"
   },
   {
-    "revision": "52c10ea5d0deae6cffe5",
-    "url": "/roomiNUS/static/js/main.52c10ea5.chunk.js"
+    "revision": "a5b149a85653c8f5dc73",
+    "url": "/roomiNUS/static/js/main.a5b149a8.chunk.js"
   },
   {
     "revision": "e8c322de9658cbeb8a774b6624167c2c",
@@ -64,20 +64,20 @@ self.__precacheManifest = [
     "url": "/roomiNUS/static/media/flags.9c74e172.png"
   },
   {
-    "revision": "b87b9ba532ace76ae9f6edfe9f72ded2",
-    "url": "/roomiNUS/static/media/icons.b87b9ba5.ttf"
-  },
-  {
     "revision": "8e3c7f5520f5ae906c6cf6d7f3ddcd19",
     "url": "/roomiNUS/static/media/icons.8e3c7f55.eot"
   },
   {
-    "revision": "c5ebe0b32dc1b5cc449a76c4204d13bb",
-    "url": "/roomiNUS/static/media/brand-icons.c5ebe0b3.ttf"
+    "revision": "b87b9ba532ace76ae9f6edfe9f72ded2",
+    "url": "/roomiNUS/static/media/icons.b87b9ba5.ttf"
   },
   {
     "revision": "13db00b7a34fee4d819ab7f9838cc428",
     "url": "/roomiNUS/static/media/brand-icons.13db00b7.eot"
+  },
+  {
+    "revision": "c5ebe0b32dc1b5cc449a76c4204d13bb",
+    "url": "/roomiNUS/static/media/brand-icons.c5ebe0b3.ttf"
   },
   {
     "revision": "82f60bd0b94a1ed68b1e6e309ce2e8c3",
@@ -92,7 +92,7 @@ self.__precacheManifest = [
     "url": "/roomiNUS/static/css/1.a2764fb6.chunk.css"
   },
   {
-    "revision": "d16e94472139eb4f1269a82b4659da2d",
+    "revision": "913bcaee697b6653d5e1b62ff891e399",
     "url": "/roomiNUS/index.html"
   }
 ];
