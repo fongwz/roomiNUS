@@ -4,16 +4,16 @@ self.__precacheManifest = [
     "url": "/roomiNUS/static/media/icons.faff9214.woff"
   },
   {
-    "revision": "a5b149a85653c8f5dc73",
-    "url": "/roomiNUS/static/css/main.074ee3bc.chunk.css"
+    "revision": "525c74705925abb5bff5",
+    "url": "/roomiNUS/static/css/main.804649e7.chunk.css"
   },
   {
     "revision": "a1a749e89f578a49306ec2b055c073da",
     "url": "/roomiNUS/static/media/brand-icons.a1a749e8.svg"
   },
   {
-    "revision": "522cf71502bc59c8a40f",
-    "url": "/roomiNUS/static/js/1.522cf715.chunk.js"
+    "revision": "db63cffd09a3bd3dcc44",
+    "url": "/roomiNUS/static/js/1.db63cffd.chunk.js"
   },
   {
     "revision": "3340172a6a5497dffc0a",
@@ -48,8 +48,8 @@ self.__precacheManifest = [
     "url": "/roomiNUS/static/media/icons.0ab54153.woff2"
   },
   {
-    "revision": "a5b149a85653c8f5dc73",
-    "url": "/roomiNUS/static/js/main.a5b149a8.chunk.js"
+    "revision": "525c74705925abb5bff5",
+    "url": "/roomiNUS/static/js/main.525c7470.chunk.js"
   },
   {
     "revision": "e8c322de9658cbeb8a774b6624167c2c",
@@ -68,12 +68,12 @@ self.__precacheManifest = [
     "url": "/roomiNUS/static/media/icons.8e3c7f55.eot"
   },
   {
-    "revision": "b87b9ba532ace76ae9f6edfe9f72ded2",
-    "url": "/roomiNUS/static/media/icons.b87b9ba5.ttf"
-  },
-  {
     "revision": "13db00b7a34fee4d819ab7f9838cc428",
     "url": "/roomiNUS/static/media/brand-icons.13db00b7.eot"
+  },
+  {
+    "revision": "b87b9ba532ace76ae9f6edfe9f72ded2",
+    "url": "/roomiNUS/static/media/icons.b87b9ba5.ttf"
   },
   {
     "revision": "c5ebe0b32dc1b5cc449a76c4204d13bb",
@@ -88,11 +88,11 @@ self.__precacheManifest = [
     "url": "/roomiNUS/static/media/icons.962a1bf3.svg"
   },
   {
-    "revision": "522cf71502bc59c8a40f",
-    "url": "/roomiNUS/static/css/1.a2764fb6.chunk.css"
+    "revision": "db63cffd09a3bd3dcc44",
+    "url": "/roomiNUS/static/css/1.8d16a56a.chunk.css"
   },
   {
-    "revision": "913bcaee697b6653d5e1b62ff891e399",
+    "revision": "78e2b7f6b2a51c8b99faf94b6f33f1c0",
     "url": "/roomiNUS/index.html"
   }
 ];
